@@ -1,0 +1,432 @@
+{
+  "sections": {
+    "a61fa22e-f694-4741-805b-f043a4f4f1bf": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16780508168501__a61fa22e-f694-4741-805b-f043a4f4f1bf-16672443290ea0a2bb-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide2_1200x_fcbeb843-d558-416e-bcb3-0ae8f9343982.webp",
+            "heading": "Park avenue",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16780508168501__a61fa22e-f694-4741-805b-f043a4f4f1bf-16672443290ea0a2bb-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide4_1400x_b9447879-8dd7-40a1-9fa9-13f50424ce9f.webp",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16780508168501__a61fa22e-f694-4741-805b-f043a4f4f1bf-16672443290ea0a2bb-0",
+        "template--16780508168501__a61fa22e-f694-4741-805b-f043a4f4f1bf-16672443290ea0a2bb-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "{{ shop.brand.cover_image }}",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Talk about your brand<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "784f3dd4-46ac-4824-8b3e-8f2297ac0a6d": {
+      "type": "featured-cards",
+      "blocks": {
+        "7196cb2d-5d61-4bdb-ac8d-80fdc2094582": {
+          "type": "card",
+          "settings": {
+            "product_item": "antique-drawers"
+          }
+        },
+        "ff2514ff-65fd-4cd7-8874-48e66f59b272": {
+          "type": "card",
+          "settings": {
+            "product_item": "biodegradable-cardboard-pots"
+          }
+        },
+        "3dae0a5f-071f-4ba2-bdaf-24b4a0368663": {
+          "type": "card",
+          "settings": {
+            "product_item": "brown-throw-pillows"
+          }
+        }
+      },
+      "block_order": [
+        "7196cb2d-5d61-4bdb-ac8d-80fdc2094582",
+        "ff2514ff-65fd-4cd7-8874-48e66f59b272",
+        "3dae0a5f-071f-4ba2-bdaf-24b4a0368663"
+      ],
+      "settings": {
+        "navigation_amount": 3,
+        "navigation_color": "#121212"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "5752f737-19e8-49d4-8427-05f3b386179b": {
+      "type": "featured_paralax",
+      "settings": {
+        "img_product": "shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg",
+        "txt_button": "View more",
+        "featured_product_handle": "antique-drawers"
+      }
+    },
+    "c120d889-448b-4af3-af9c-d73468d01424": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16780508168501__c120d889-448b-4af3-af9c-d73468d01424-16674714044db53eb5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16780508168501__c120d889-448b-4af3-af9c-d73468d01424-16674714044db53eb5-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16780508168501__c120d889-448b-4af3-af9c-d73468d01424-16674714044db53eb5-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16780508168501__c120d889-448b-4af3-af9c-d73468d01424-16674714044db53eb5-0",
+        "template--16780508168501__c120d889-448b-4af3-af9c-d73468d01424-16674714044db53eb5-1",
+        "template--16780508168501__c120d889-448b-4af3-af9c-d73468d01424-16674714044db53eb5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "bedside-table",
+            "second_image": true
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9baa703f-38c6-4f62-a1f7-acf8f0f7199c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16780508168501__9baa703f-38c6-4f62-a1f7-acf8f0f7199c-1667470999caac4d1e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16780508168501__9baa703f-38c6-4f62-a1f7-acf8f0f7199c-1667470999caac4d1e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16780508168501__9baa703f-38c6-4f62-a1f7-acf8f0f7199c-1667470999caac4d1e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16780508168501__9baa703f-38c6-4f62-a1f7-acf8f0f7199c-1667470999caac4d1e-0",
+        "template--16780508168501__9baa703f-38c6-4f62-a1f7-acf8f0f7199c-1667470999caac4d1e-1",
+        "template--16780508168501__9baa703f-38c6-4f62-a1f7-acf8f0f7199c-1667470999caac4d1e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5f7f7990e400e5c10bbf7c3c6701ae6c.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/photo.webp",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide2_1200x_fcbeb843-d558-416e-bcb3-0ae8f9343982.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About-Nehru-Rose-Garden-Ludhiana.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "56f87783-0e8b-42c4-89b4-aef58b2ce407": {
+      "type": "slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    }
+  },
+  "order": [
+    "a61fa22e-f694-4741-805b-f043a4f4f1bf",
+    "image_banner",
+    "rich_text",
+    "784f3dd4-46ac-4824-8b3e-8f2297ac0a6d",
+    "featured_collection",
+    "5752f737-19e8-49d4-8427-05f3b386179b",
+    "c120d889-448b-4af3-af9c-d73468d01424",
+    "collage",
+    "9baa703f-38c6-4f62-a1f7-acf8f0f7199c",
+    "video",
+    "multicolumn",
+    "56f87783-0e8b-42c4-89b4-aef58b2ce407"
+  ]
+}
